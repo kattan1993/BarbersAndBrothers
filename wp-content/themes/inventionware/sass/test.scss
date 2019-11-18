@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+$msuxf-background: #fff !default;
+$msuxf-background-dark: #333 !default;
+$msuxf-font-family-alt: 'Montserrat', sans-serif;
+$msuxf-transition-duration: 0.25s !default;
+$msuxf-transition-timing: ease !default;
+body {
+
+  .st1{fill: #0a0a0a;;}
+  .st4{fill: #0a0a0a;;}
+  .svg-wrapper{
+    padding-top: 5rem;
+    width: 100%;
+  }
+  .menu-under-line{
+    color:red;
+    margin:120px;
+
+  }
+  .wrap-grid-container{
+    color: red;
+    background: aliceblue;
+    TEXT-ALIGN: center;
+    padding: 5rem 5rem;
+  }
+  margin:0;
+  padding:0;
+  .wrap_top-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    position: fixed;
+    z-index: -2;
+    background-attachment: fixed;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .wrap_top-logo{
+    position: fixed;
+    width: 4rem;
+    margin-left: 5rem;
+    top: 0.3rem;
+    z-index: 999999;
+  }
+  ._grid-padding{
+    padding: 15rem 0rem;}
+}
+.menu-hover-lines{
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  padding: 1rem;
+  width: 100%;
+  background: #0a0a0a;
+
+  ul{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0rem 10rem;
+    overflow: hidden;
+    li a:hover {
+      background-color: #6d757557;
+    }
+    li{
+      float: right;
+      a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+    }
+  }
+
+}
+.padding-hoogte{padding:70px;}
+.wrap-content-bar{
+
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 0 15rem;
+  h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+  }
+  h4{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  s{
+    color:red;
+  }
+
+}
+
+.wrap-content-bar_itmes{
+  font-size: 3.5rem;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.background-colores-bar{
+  background: #7e7e7cf7;
+  padding: 2rem;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
